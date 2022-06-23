@@ -199,13 +199,13 @@ install_XrayR() {
     # echo ""
 
     # Writing json
-    echo "正在尝试写入配置文件..."
-    wget https://cdn.jsdelivr.net/gh/PGXx/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
-    sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
-    sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
-    echo ""
-    echo "写入完成，正在尝试重启XrayR服务..."
-    echo
+    # echo "正在尝试写入配置文件..."
+    # wget https://cdn.jsdelivr.net/gh/PGXx/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
+    # sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
+    # sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
+    # echo ""
+    # echo "写入完成，正在尝试重启XrayR服务..."
+    # echo
     
     # if [ $aead_disable == "0" ]; then
     # echo "正在关闭AEAD强制加密..."
